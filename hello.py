@@ -7,7 +7,7 @@ class Hello(commands.Cog):
 
     @discord.slash_command(name="hello")
     async def hello(self, ctx):
-        await ctx.send("Hello, world!")
+        await ctx.respond("Hello, world!")
 
 def setup(bot: commands.Bot, config_dir: str = None):
     if config_dir is None:
