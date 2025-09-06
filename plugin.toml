@@ -1,0 +1,9 @@
+[plugin]
+name = "hello"
+main = "hello.py"
+enabled = true
+
+[about]
+description = "hello world plugin"
+version = "0.1.0"
+author = "system"
